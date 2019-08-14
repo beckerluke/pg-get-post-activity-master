@@ -1,9 +1,26 @@
+h1, h2, table {
+    text-align: center;
+}
+
+
 table {
     border-collapse: collapse;
     width: 100%;
   }
   
-  th, td {
+th, td {
     text-align: left;
     padding: 8px;
-  }
+}
+
+th {
+    border: 5px solid tan;
+}
+
+td {
+    border: 1px solid;
+}
+
+h1 {
+   color: tan;
+}

@@ -31,7 +31,6 @@ router.get('/', (req,res) => {
 router.post('/', (req,res) => {
     console.log(`In /songs POST with`, req.body);
     
-
     const bookToAdd = req.body;
     let queryText = `INSERT INTO "books" ("title", "author", "published")
                     VALUES ($1, $2, $3);`;
