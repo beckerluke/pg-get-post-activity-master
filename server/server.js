@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 
 app.use('/api/books', bookRouter);
 
-
 app.use(express.static('server/public'));
 
 app.listen(PORT, () => {
